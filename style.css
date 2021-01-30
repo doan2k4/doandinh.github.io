@@ -1,0 +1,26 @@
+html {
+}
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: red;
+}
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: pink;
+}
+.sidebar {
+    width: 60vw;
+    height: 400px;
+    background-color: aqua;
+
+}
+.right {
+    width: 40vw;
+    height: 400px;
+    background-color: brown;
+}
+.container {
+    display: flex;
+}
