@@ -54,7 +54,7 @@ $nentrang = "\033[47m";
 
 $UGreen = "\033[4;32m";
 
-$banner=
+$banner
 "\r\r
 \033[1;32m ┈┈┈╲┈┈┈┈╱       \033[1;37m\033[1;40m|\033[1;40m Đẹp Trai Số 1 Việt Nam  :$vang Trùm Liên Quân
 \033[1;32m ┈┈┈╱▔▔▔▔╲       \033[1;37m\033[1;40m|\033[1;40m Copyright        :$den Doãn Đình
