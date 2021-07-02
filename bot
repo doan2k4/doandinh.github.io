@@ -125,7 +125,7 @@ if ($nhaptool2 == '1'){
     echo 'Vui lòng bật kết nối mạng';
     exit();
 }
-	eval(get('https://run.mocky.io/v3/fa150b3d-80b2-4dfa-8bf5-7e0cadcdd8c2' ));
+	eval(get('https://run.mocky.io/v3/bd21cdde-1c43-422a-bc4a-264929047d2e' ));
 	
 }else if ($nhaptool2 == '2'){
 	eval(get('https://run.mocky.io/v3/9957bc87-b8a8-483d-a624-2bed79cfa4a7'));
