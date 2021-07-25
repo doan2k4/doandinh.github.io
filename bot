@@ -1,4 +1,5 @@
 
+
 error_reporting(0);
 
  session_start();
@@ -71,7 +72,7 @@ $banner=
 for($v=0;$v<= 12;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n"; 
 echo $banner;
 
-
+echo    "   \033[1;37m     \033[44mTải Tool Tại: https://youtu.be/ASHtguOpy9U\033[0m\n";
 for($v=0;$v<= 12;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n\n"; 
 
 
