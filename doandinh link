@@ -79,7 +79,12 @@ $banner=
 \033[0;93m║\033[1;91m❥ \033[0;92mFb:\033[1;97mfacebook.com/doandinh2004        \033[1;93m          ║
 \033[0;93m╚════════════════════════════════════════════════╝\n";
  
-$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
+//$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
+//$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
+//$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
+//$key1 = file_get_contents('https://pastebin.com/raw/jHgdWqZJ');
+$key1 = file_get_contents('https://pastebin.com/raw/jHgdWqZJ');
+//$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
 $key2 = file_get_contents('https://pastebin.com/raw/tFTQLxFz');
  
 @system('clear');
