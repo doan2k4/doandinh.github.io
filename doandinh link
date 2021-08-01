@@ -51,24 +51,71 @@ $nenPurpe = "\033[45m";
 $nenCyan = "\033[46m";
 
 $nentrang = "\033[47m";
-
+$day= date('d-m-y');
+$today = date("d-m-Y");
+$d = date("d-m");
+$_check = file_exists("keyfree$d.txt");
+$day = [];
+$day= date('d-m-y');
 $UGreen = "\033[4;32m";
-
+date_default_timezone_set("Asia/Ho_Chi_Minh");
+$key = [];
+ 
+$gt = 1.4;
+ 
+ 
+$ip = file_get_contents('http://kiemtraip.com/raw.php');
+date_default_timezone_set('Asia/Ho_Chi_Minh');
+$time=date('h:i');
+$ngay = date("d-m-Y");
 $banner=
 "\r\r
 \033[0;93m╔════════════════════════════════════════════════╗
-\033[0;93m║\033[1;91m❥ \033[0;92mBản quyền: \033[1;97mDoãn Đình \033[1;93m ║\033[0;91m❥ \033[1;90mChạy Được Thì Chạy \033[0;93m  ║
-\033[0;93m║\033[1;91m❥ \033[0;92mYoutube:\033[1;97mCám Chăm Chỉ \033[1;93m ║\033[1;91m❥ \033[0;90mKhong Chạy Thì cut \033[1;93m  ║
+\033[0;93m║\033[1;91m❥ \033[0;92mĐịa Chỉ iP Của Bạn Là: \033[1;97m$ip \033[1;93m       ║
+\033[0;93m║\033[1;91m❥ \033[0;92mBản quyền: \033[1;97mDoãn Đình \033[1;93m ║\033[0;91m❥ \033[1;92mĐồng Hồ: \033[1;97m$time \033[0;93m      ║
+\033[0;93m║\033[1;91m❥ \033[0;92mYoutube:\033[1;97mCám Chăm Chỉ \033[1;93m ║\033[1;91m❥ \033[0;92mHôm Nay: \033[1;97m$ngay\033[1;93m  ║
 \033[0;93m║\033[1;91m❥ \033[0;92mZalo: \033[1;97m0971.932.146 \033[1;93m   ║\033[1;91m❥ \033[0;90mChờ Đợi Là Chân Ái !\033[1;93m ║
 \033[0;93m║\033[1;91m❥ \033[0;92mMomo:\033[1;97m0971.932.146 \033[1;93m    ║\033[1;91m❥ \033[0;90mAce Cày Xu Vui Vẻ \033[1;93m   ║
 \033[0;93m║\033[1;91m❥ \033[0;92mFb:\033[1;97mfacebook.com/doandinh2004        \033[1;93m          ║
 \033[0;93m╚════════════════════════════════════════════════╝\n";
-
-
-
+ 
+$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
+$key2 = file_get_contents('https://pastebin.com/raw/tFTQLxFz');
+ 
 @system('clear');
+for($v=0;$v<= 10;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n"; 
+echo $banner;
 
 
+for($v=0;$v<= 10;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n\n"; 
+echo $xnhac."-Nhằm Cân Bằng Hệ Sinh Thái Giữa Người Bán Key Và Người Share Tool Nên Tôi Thêm Key Vào Các Bạn Tự Hiểu Đi\n";
+echo $luc."Link Lấy Key Free:$trang https://link1s.com/GibC\n";
+ 
+for($j = 4;$j> 0;$j--){
+  echo $luc."Chuyển Hướng Đến Trang Lấy Key Sau: $do [$den $j$do ]";
+  sleep(1);
+  echo "\r";
+  echo "                                          \r";
+}
+system("termux-open-url https://link1s.com/GibC");
+echo $luc."Nhập Key: $vang";
+$nhapkey = trim(fgets(STDIN));
+if ($nhapkey == $key1){
+	echo $luc."Key Đúng\n";
+	echo $vang."Hạn Key:24h\n";
+	sleep(1);
+	}
+	elseif ($nhapkey == $key2){
+		echo $luc."Key Đúng\n";
+		echo $vang."Bạn Đang Vào Tool Với Key Admin\n";
+		sleep(1);
+	
+	
+	}else{
+		echo $do."Key Bạn Nhập Sai Rồi\n"; 
+		exit;}
+usleep(500000);
+@system('clear');
 for($v=0;$v<= 10;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n"; 
 echo $banner;
 
