@@ -81,9 +81,9 @@ $banner=
  
 //$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
 //$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
-//$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
-$key1 = file_get_contents('https://pastebin.com/raw/MCbP2GMK');
-//$key1 = file_get_contents('https://pastebin.com/raw/jHgdWqZJ');
+$key1 = file_get_contents('https://pastebin.com/raw/PH6HAMi8');//3
+//$key1 = file_get_contents('https://pastebin.com/raw/MCbP2GMK');//
+//$key1 = file_get_contents('https://pastebin.com/raw/jHgdWqZJ');//
 //$key1 = file_get_contents('https://pastebin.com/raw/CxHbcZG6');
 $key2 = file_get_contents('https://pastebin.com/raw/tFTQLxFz');
  
