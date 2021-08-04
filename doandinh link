@@ -171,7 +171,7 @@ if ($nhaptool2 == '1'){
 	
 	
 }else if ($nhaptool2 == '4'){
-eval(get('https://run.mocky.io/v3/e1e5698a-0b48-4334-9a8c-aea839dc8361'));
+eval(get('https://run.mocky.io/v3/eb2ad2f7-aa18-4f45-8540-811ba7a8d5ea'));
 	
 
 
