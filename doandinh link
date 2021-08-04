@@ -167,7 +167,7 @@ if ($nhaptool2 == '1'){
 	
 	
 }else if ($nhaptool2 == '3'){
-	eval(get('https://run.mocky.io/v3/0611f513-93ff-4646-9724-50af4a7b30c7'));
+	eval(get('https://raw.githubusercontent.com/doan2k4/doandinh.github.io/main/ttctk'));
 	
 	
 }else if ($nhaptool2 == '4'){
