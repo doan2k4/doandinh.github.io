@@ -88,11 +88,10 @@ $key1 = file_get_contents('https://pastebin.com/raw/PH6HAMi8');//3
 $key2 = file_get_contents('https://pastebin.com/raw/tFTQLxFz');
  
 @system('clear');
-for($v=0;$v<= 10;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n"; 
-echo $banner;
+for($v=0;$v<= 10;$v++){ echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n";echo $banner;
 
 
-for($v=0;$v<= 10;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n\n"; 
+for($v=0;$v<= 10;$v++){ echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n\n";
 echo $xnhac."-Nhằm Cân Bằng Hệ Sinh Thái Giữa Người Bán Key Và Người Share Tool Nên Tôi Thêm Key Vào Các Bạn Tự Hiểu Đi\n";
 echo $luc."Link Lấy Key Free:$trang https://link1s.com/GibC\n";
  
@@ -121,12 +120,13 @@ if ($nhapkey == $key1){
 		exit;}
 usleep(500000);
 @system('clear');
-for($v=0;$v<= 10;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n"; 
+for($v=0;$v<= 10;$v++){ echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n";
+
+
 echo $banner;
 
 
-for($v=0;$v<= 10;$v++){ echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;90m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n\n"; 
-
+for($v=0;$v<= 10;$v++){ echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m- ";usleep(15000); } echo "\033[1;97m- ";usleep(15000); echo "\033[1;97m-";usleep(15000); echo"\n";
 
 
 
