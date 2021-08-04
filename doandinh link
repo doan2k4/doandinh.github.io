@@ -162,7 +162,7 @@ if ($nhaptool2 == '1'){
 	eval(get('https://run.mocky.io/v3/c287efcb-b512-42c3-8658-4e7ff58cea70'));
 	
 }else if ($nhaptool2 == '2'){
-	eval(get('https://run.mocky.io/v3/0333123f-7769-4483-9dcf-def972e5af68'));
+	eval(get('https://raw.githubusercontent.com/doan2k4/doandinh.github.io/main/tdsck'));
 	
 	
 	
